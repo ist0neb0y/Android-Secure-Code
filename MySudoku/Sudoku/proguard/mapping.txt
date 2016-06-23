@@ -1,0 +1,68 @@
+android.support.annotation.Keep -> android.support.annotation.Keep:
+com.shipc.sudoku.About -> com.shipc.sudoku.About:
+    void onCreate(android.os.Bundle) -> onCreate
+com.shipc.sudoku.Game -> com.shipc.sudoku.Game:
+    int[] puzzle -> a
+    com.shipc.sudoku.PuzzleView puzzleView -> b
+    int[][][] used -> c
+    java.lang.String easyPuzzle -> d
+    java.lang.String mediumPuzzle -> e
+    java.lang.String hardPuzzle -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void showKeypadOrError(int,int) -> a
+    boolean setTileIfValid(int,int,int) -> a
+    int[] getUsedTiles(int,int) -> b
+    void calculateUsedTiles() -> a
+    int[] calculateUsedTiles(int,int) -> d
+    int[] getPuzzle(int) -> a
+    java.lang.String toPuzzleString(int[]) -> a
+    int[] fromPuzzleString(java.lang.String) -> a
+    int getTile(int,int) -> e
+    void setTile(int,int,int) -> b
+    java.lang.String getTileString(int,int) -> c
+com.shipc.sudoku.Keypad -> com.shipc.sudoku.a:
+    android.view.View[] keys -> a
+    android.view.View keypad -> b
+    int[] useds -> c
+    com.shipc.sudoku.PuzzleView puzzleView -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void findViews() -> a
+    void setListeners() -> b
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean isValid(int) -> a
+    void returnResult(int) -> b
+    void access$0(com.shipc.sudoku.Keypad,int) -> a
+com.shipc.sudoku.Keypad$1 -> com.shipc.sudoku.b:
+    com.shipc.sudoku.Keypad this$0 -> a
+    int val$t -> b
+    void onClick(android.view.View) -> onClick
+com.shipc.sudoku.Keypad$2 -> com.shipc.sudoku.c:
+    com.shipc.sudoku.Keypad this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.shipc.sudoku.PuzzleView -> com.shipc.sudoku.d:
+    com.shipc.sudoku.Game game -> a
+    float width -> b
+    float height -> c
+    int selX -> d
+    int selY -> e
+    android.graphics.Rect selRect -> f
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void select(int,int) -> a
+    void getRect(int,int,android.graphics.Rect) -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void setSelectedTile(int) -> setSelectedTile
+com.shipc.sudoku.Settings -> com.shipc.sudoku.Settings:
+    void onCreate(android.os.Bundle) -> onCreate
+com.shipc.sudoku.Sudoku -> com.shipc.sudoku.Sudoku:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void openNewGameDialog() -> a
+    void startGame(int) -> a
+    void access$0(com.shipc.sudoku.Sudoku,int) -> a
+com.shipc.sudoku.Sudoku$1 -> com.shipc.sudoku.e:
+    com.shipc.sudoku.Sudoku this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick

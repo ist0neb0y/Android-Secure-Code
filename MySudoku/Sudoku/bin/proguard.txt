@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:25
+-keep class com.shipc.sudoku.About { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.shipc.sudoku.Game { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.shipc.sudoku.Settings { <init>(...); }
+
+# view res/xml/pref_headers.xml #generated:11
+-keep class com.shipc.sudoku.Settings$DataSyncPreferenceFragment { <init>(...); }
+
+# view res/xml/pref_headers.xml #generated:5
+-keep class com.shipc.sudoku.Settings$GeneralPreferenceFragment { <init>(...); }
+
+# view res/xml/pref_headers.xml #generated:8
+-keep class com.shipc.sudoku.Settings$NotificationPreferenceFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.shipc.sudoku.Sudoku { <init>(...); }
+
